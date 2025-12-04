@@ -105,24 +105,24 @@ button {
 /* Start hero Section */
 
 .hero .content {
-  background: url(../images/bg-hero.jpg);
+  background: url(../images/bg-hero.webp);
   background-size: cover;
   background-position: bottom;
-  padding-top: 8px;
+  padding-top: 7px;
   text-align: center;
 }
 .hero ul li {
-  font-size: 5.2vw;
+  font-size: 5.4vw;
   line-height: 1.25;
   padding: 4px 1px 8px;
-  margin: 0 auto 12px;
+  margin: 0 auto 8px;
   box-shadow: 0 5px 15px #58585820;
   border-radius: 25px 0 25px 0;
   width: 90%;
   overflow: hidden;
 }
 .hero ul li.black {
-  background: url(../images/black.png);
+  background: url(../images/black.webp);
     background-position: center;
   background-size: cover;
   color: #fff;
@@ -220,7 +220,7 @@ button {
 /* Start Results Section */
 .results {
   position: relative;
-  background: url(../images/result_bg.jpg);
+  background: url(../images/result-bg.webp);
   background-size: cover;
   background-position: center;
 
@@ -232,7 +232,7 @@ button {
     border-radius: 0 0 60px 60px;
 }
 .results h2{
-    background: url(../images/black.png);
+    background: url(../images/black.webp);
     background-position: center;
   background-size: cover;
   font-size: 10vw;
@@ -325,7 +325,7 @@ button {
 /* Start how_work Section */
 
 .how_work .top_work{
-  background: url(../images/top_how_work.png) center/cover;
+  background: url(../images/top-how-work.webp) center/cover;
 }
 .how_work .top_how_work {
   background: linear-gradient(to top,#F45A19, #F7AD20);
@@ -334,7 +334,7 @@ button {
     border-radius: 0 0 60px 60px;
 }
 .how_work h2{
-    background: url(../images/black.png);
+    background: url(../images/black.webp);
     background-position: center;
   background-size: cover;
   font-size: 8.4vw;
@@ -358,14 +358,14 @@ button {
 
 .how_work .text_Work{
         padding-top: 15px;
-  background: url(../images/btm_work.png) center/cover;
+  background: url(../images/btm-work.webp) center/cover;
 }
 .how_work ul {
   padding: 15px 0 0;
 }
 
 .how_work ul li {
-  font-size: 5.1vw;
+  font-size: 5.2vw;
   line-height: 1.3;
   color: #fff;
   text-align: center;
