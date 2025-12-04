@@ -155,7 +155,7 @@ button {
     border-radius: 20px;
     margin: 0 auto 10px;
     width: 76%;
-    font-size: 4vw;
+    font-size: 4.5vw;
     padding: 4px 1px 14px;
   }
 
@@ -194,12 +194,13 @@ button {
 /* ==========  xl ≥ 1200px  ========== */
 @media (min-width: 1200px) {
   .hero ul li {
-    width: 62%;
+    width: 60%;
+    font-size: 24px;
   }
 }
 @media (min-width: 1500px) {
   .hero ul li {
-    width: 65%;
+    width: 60%;
     font-size: 28px;
   }
 }
@@ -262,7 +263,12 @@ button {
 /* ==========  Responsive Design  ========== */
 /* ==========  sm ≥ 576px  ========== */
 @media (min-width: 576px) {
-
+.results h2{
+  font-size: 8.5vw;
+}
+.results h3{
+  font-size: 4.3vw;
+}
   }
 
 
@@ -270,6 +276,18 @@ button {
 @media (min-width: 992px) {
   .results{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .results h2{
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .results h3{
+    font-size: 26px;
+    padding: 10px 0;
   }
 }
 
@@ -382,7 +400,7 @@ button {
 /* ==========  sm ≥ 576px  ========== */
 @media (min-width: 576px) {
   .how_work ul li {
-    font-size: 3.5vw;
+    font-size: 4vw;
     padding: 0 10px 8px;
     border-radius: 10px;
     width: max-content;
@@ -393,15 +411,23 @@ button {
     margin: 0 auto 10px;
     border-radius: 15px;
   }
+  .how_work h2{
+    font-size: 7vw;
+  }
+  .how_work h3{
+    font-size: 5.6vw;
+  }
 }
 
 /* ==========  lg ≥ 992px  ========== */
 @media (min-width: 992px) {
   .how_work {
     width: 50%;
+    background: #1F1F1F;
   }
   .how_work ul li{
-    font-size: 22px;
+    font-size: 25px;
+    margin-bottom: 12px;
   }
   .doctor .tall_p{
     font-size: 16px;
@@ -412,8 +438,15 @@ button {
   .how_work .text_Work{
     padding-top: 0;
   }
-  .how_work ul li{
-    margin-bottom: 8px;
+
+  .how_work h2{
+      font-size: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+  }
+  .how_work h3{
+    font-size: 28px;
+    padding: 10px 0;
   }
 }
 
@@ -523,12 +556,10 @@ button {
 @media (min-width: 992px) {
   .form_section {
     display: flex;
-    flex-direction: row-reverse;
   }
   .form_section .price {
     width: 50%;
     background: linear-gradient(#FAFAFA,#DCDCDC);
-     padding: 0 5%;
   }
 
   .form_section .container_form {
@@ -557,9 +588,7 @@ button {
     padding: 25px 20px 30px;
     min-width: 550px;
   }
-    .form_section .price {
-    padding: 0 8%;
-  }
+
 }
 
 /* End form_section Section */
